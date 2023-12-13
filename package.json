@@ -1,21 +1,15 @@
 {
-  "name": "create-api-q-a",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "platformatic start",
+    "test": "node --test test/**"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "fastify": "^4.24.3"
+  },
   "dependencies": {
-    "fastify": "^4.24.3",
-    "fastify-cors": "^6.1.0",
-    "next": "^14.0.4",
-    "nodemon": "^3.0.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sqlite3": "^5.1.6",
-    "xlsx": "^0.18.5"
+    "platformatic": "^1.10.0"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
   }
 }
