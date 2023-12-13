@@ -47,8 +47,8 @@ async function routes(fastify,options){
             return { success: true, message: 'Field added successfully', data: jsonData }
         }
         catch (error) {
-            console.error(error);
-            res.code(500).send({ success: false, message: 'Internal Server Error' });
+            console.error(error,"error");
+            // res.code(500).send({ success: false, message: 'Internal Server Error' });
           }
     
     })
