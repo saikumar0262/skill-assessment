@@ -31,7 +31,7 @@ async function routes(fastify,options){
         )
     })
 
-    fastify.post("/insert-row",async (req,res)=>{
+    fastify.post("/insert-field",async (req,res)=>{
         console.log("ok")
        
         try{
